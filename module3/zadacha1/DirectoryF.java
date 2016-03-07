@@ -2,17 +2,14 @@ package module3.zadacha1;
 
 import java.util.List;
 
-/**
- * Created by user on 06.03.2016.
- */
 public class DirectoryF {
-    private List<FileF> FilesF;
+    private List<FileF> fileFs;
 
-    public List<FileF> getFilesF() {
-        return FilesF;
+    public List<FileF> getFileFs() {
+        return fileFs;
     }
 
-    public void setFilesF(List<FileF> filesF) {
-        FilesF = filesF;
+    public void setFileFs(List<FileF> fileFs) {
+        this.fileFs = fileFs;
     }
 }

@@ -1,7 +1,7 @@
 package module3.zadacha2;
 
-/**
- * Created by user on 06.03.2016.
- */
 public class Rose extends Flower {
+    public void getSmellFlower() {
+        System.out.println(this.getNameFlower() + " smell very well");
+    }
 }

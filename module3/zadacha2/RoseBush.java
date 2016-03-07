@@ -2,17 +2,19 @@ package module3.zadacha2;
 
 import java.util.List;
 
-/**
- * Created by user on 06.03.2016.
- */
 public class RoseBush {
-    private List<Rose> rosebush;
+    private List<Rose> roses;
 
-    public List<Rose> getRosebush() {
-        return rosebush;
+    public List<Rose> getRoses() {
+        return roses;
     }
 
-    public void setRosebush(List<Rose> rosebush) {
-        this.rosebush = rosebush;
+    public void setRoses(List<Rose> roses) {
+        this.roses = roses;
     }
+
+    public void getNumberRoses() {
+        System.out.println("This RoseBush consist of " + this.roses.size());
+    }
+
 }

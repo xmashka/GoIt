@@ -1,7 +1,24 @@
 package module3.zadacha1;
 
-/**
- * Created by user on 06.03.2016.
- */
-public class FileF {
+abstract public class FileF {
+    String nameF;
+    String extF;
+
+    abstract public void runf();
+
+    public String getNameF() {
+        return nameF;
+    }
+
+    public void setNameF(String nameF) {
+        this.nameF = nameF;
+    }
+
+    public String getExtF() {
+        return extF;
+    }
+
+    public void setExtF(String extF) {
+        this.extF = extF;
+    }
 }

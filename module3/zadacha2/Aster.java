@@ -1,7 +1,9 @@
 package module3.zadacha2;
 
-/**
- * Created by user on 06.03.2016.
- */
 public class Aster extends Flower {
+
+    public void getSmellFlower() {
+        System.out.println("Smell like a " + this.getNameFlower());
+    }
+
 }

@@ -1,7 +1,8 @@
 package module3.zadacha2;
 
-/**
- * Created by user on 06.03.2016.
- */
 public class Camomile extends Flower {
+    public void getSmellFlower() {
+        System.out.println(this.getNameFlower() + " does not smell");
+    }
+
 }

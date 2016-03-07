@@ -1,7 +1,7 @@
 package module3.zadacha3;
 
-/**
- * Created by user on 06.03.2016.
- */
 public class Piano extends MusicInstrument {
+    public void playInstrument() {
+        System.out.println("Just play");
+    }
 }
