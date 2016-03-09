@@ -17,5 +17,7 @@ public class CalculateTemperature {
                 Fahrenheit2Celsius MeasurFahrenheit = new Fahrenheit2Celsius(GetOriginData.GetData("Fahrenheit"));
                 break;
         }
+
+
     }
 }
