@@ -1,4 +1,4 @@
-package module4.zadacha2;
+package module4.zadacha2.variant1;
 
 import java.util.Scanner;
 

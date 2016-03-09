@@ -1,4 +1,4 @@
-package module4.zadacha2;
+package module4.zadacha2.variant1;
 
 interface Action4Calc {
     void getData(); //* getting data
