@@ -1,4 +1,4 @@
-package module4.zadacha2.variant2;
+package module4.zadacha2;
 
 public class Fahrenheit2Celsius {
     Fahrenheit2Celsius(int f){
