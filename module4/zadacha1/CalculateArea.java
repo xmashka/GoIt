@@ -8,4 +8,6 @@ public class CalculateArea {
         Scanner typeFigure = new Scanner(System.in);
         GetDataFigure newFigure = new GetDataFigure(typeFigure.nextInt());
     }
+
+
 }
