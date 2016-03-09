@@ -9,12 +9,12 @@ public class CalculateTemperature {
         Scanner tm = new Scanner(System.in);
         switch (tm.nextInt()) {
             case 1:
-                System.out.println("Input Celsius temperature  ");
+                GetOriginData DataCelsius = new GetOriginData("Celsius");
                 Scanner c = new Scanner(System.in);
                 Celsius2Fahrenheit MeasurCelsius = new Celsius2Fahrenheit(c.nextInt());
                 break;
             case 2:
-                System.out.println("Input Fahrenheit temperature  ");
+                GetOriginData DataFahrenheit = new GetOriginData("Fahrenheit");
                 Scanner f = new Scanner(System.in);
                 Fahrenheit2Celsius MeasurFahrenheit = new Fahrenheit2Celsius(f.nextInt());
                 break;
