@@ -1,18 +1,17 @@
-package module4.zadacha3;
+package module4.task3;
 
 import java.util.Scanner;
 
-public class PointMore  {
+public class PointXY {
     int x;
     int y;
-
     public void getData() {
         System.out.println("Input x ");
-        Scanner x = new Scanner(System.in);
-        this.setX(x.nextInt());
+        Scanner scannerX = new Scanner(System.in);
+        this.setX(scannerX.nextInt());
         System.out.println("Input y ");
-        Scanner y = new Scanner(System.in);
-        this.setY(y.nextInt());
+        Scanner scannerY = new Scanner(System.in);
+        this.setY(scannerY.nextInt());
     }
 
     public int getX() {
@@ -30,4 +29,5 @@ public class PointMore  {
     public void setY(int y) {
         this.y = y;
     }
+
 }
